@@ -5,6 +5,8 @@ const webdav = require('webdav-server').v2
 const helmet = require('helmet')
 const express = require('express')
 
+const pkg = require('./package')
+
 const app = express()
 
 // helmet
