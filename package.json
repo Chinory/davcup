@@ -1,7 +1,7 @@
 {
   "name": "davcup",
   "version": "1.0.0",
-  "description": "",
+  "description": "small webdav server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/chinory/davcup#readme",
   "dependencies": {
+    "config-lite": "^2.1.0",
     "express": "^4.16.3",
     "helmet": "^3.13.0",
     "webdav-server": "^2.3.22"
